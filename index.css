@@ -162,6 +162,7 @@ body {
   margin-top: 18px;
 }
 
+
 /* Links inside cards */
 .content-block a {
   color: var(--link-color, #5865F2);
