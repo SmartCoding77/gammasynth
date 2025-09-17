@@ -111,8 +111,16 @@ body {
   background: radial-gradient(circle at 50% 0%, rgba(0,255,255,0.05), transparent 80%);
 }
 
-.main-content h1 {
+.child--main-content{
   margin-bottom: 4rem;
+}
+
+.child--main-content p {
+  margin-top: 14px;
+}
+
+.main-content h1 {
+  margin-bottom: 0rem;
   font-size: 2rem;
   color: var(--text-color);
   text-transform: uppercase;
@@ -146,6 +154,12 @@ body {
 .content-block p {
   color: #ccc;
   font-size: 1.05rem;
+  margin-bottom: 14px;
+}
+
+.content-block p:nth-of-type(2){
+  text-align: start;
+  margin-top: 18px;
 }
 
 /* Links inside cards */
