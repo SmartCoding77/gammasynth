@@ -38,13 +38,12 @@ body {
 }
 
 .navbar-logo {
-  width: 58px;
-  height: 58px;
-  filter: brightness(1000%); /* keeps white logos visible */
+  width: 86px;
+  height: 86px;
 }
 
 .navbar-title {
-  color: var(--title-color);
+  color: var(--text-color);
   font-weight: bold;
 }
 
@@ -232,11 +231,18 @@ body {
   text-align: center;
 }
 .footer-brand img {
-  width: 86px;
-  height: 86px;
-  filter: brightness(1000%);
+  width: 116px;
+  height: 116px;
+  margin-bottom: -27px;
 }
 
+.footer-head-title{
+  margin-bottom: 27px;
+}
+
+.copy-right{
+  font-size: 14px;
+}
 /* Responsive nav */
 
 /* Mobile style */
